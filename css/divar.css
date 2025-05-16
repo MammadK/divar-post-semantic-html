@@ -1,0 +1,13 @@
+:root{
+      --black-secondary: rgba(0, 0, 0, 0.56);
+  --black-divider: rgba(0, 0, 0, 0.12);
+    --black-hint: rgba(0, 0, 0, 0.32);
+}
+
+
+
+.kt-breadcrumbs__nav-icon {
+    color: rgba(0, 0, 0, .56);
+    color: var(--black-secondary);
+    transition: color .36s ease, transform .36s ease;
+}
