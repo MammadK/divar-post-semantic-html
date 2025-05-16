@@ -1,4 +1,5 @@
 :root {
+    --black-divider: rgba(0, 0, 0, 0.12);
   --header-height: 64px;
   --nav-height: 96px;
   --top-total-height: calc( var(--header-height) + var(--nav-height) );
@@ -8,6 +9,7 @@
 
 html,
 body {
+    font-family: yekan;
   margin: 0;
   min-height: 100% !important;
   height: 100%;
@@ -20,16 +22,23 @@ body {
   box-sizing: border-box;
 }
 
-body * {
-  border: 1px dashed gray;
-}
+
 
 body {
   header {
+    box-shadow: 0 1px 2px 0 var(--black-divider);
+    width: 100%;
     height: var(--header-height);
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: #fff;
   }
 
   main {
+    *:not(button) {
+  border: 1px dashed gray;
+}
     max-width: 1024px;
     min-height: var(--main-min-height);
     margin: 0 auto;
