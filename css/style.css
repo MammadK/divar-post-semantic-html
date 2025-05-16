@@ -49,15 +49,8 @@ body {
     article {
       display: flex;
       column-gap: 8.3333333%;
-      section {
-        width: 41.66666%;
-        min-height: var(--section-min-height);
-        background-color: antiquewhite;
-      }
-      section:last-child {
-        width: 50%;
-        background-color: beige;
-      }
+
+
     }
   }
   footer {

@@ -1,0 +1,5 @@
+      section:last-child {
+        width: 50%;
+         min-height: var(--section-min-height);
+        background-color: beige;
+      }

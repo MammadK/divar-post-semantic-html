@@ -1,0 +1,5 @@
+      section {
+        width: 41.66666%;
+        min-height: var(--section-min-height);
+        background-color: antiquewhite;
+      }
