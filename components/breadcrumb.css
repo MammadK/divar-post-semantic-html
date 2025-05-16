@@ -1,0 +1,18 @@
+      ol{
+        display: flex;
+        gap: 8px;
+        li{
+            display: flex;
+            align-items: center;
+            a{
+                display: flex;
+                align-items: center;
+                margin: 4px;
+                color: var(--black-secondary);
+            }
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+      }

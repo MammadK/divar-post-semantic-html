@@ -1,15 +1,15 @@
 :root {
-    --black-divider: rgba(0, 0, 0, 0.12);
+  
   --header-height: 64px;
   --nav-height: 96px;
-  --top-total-height: calc( var(--header-height) + var(--nav-height) );
-  --main-min-height: calc( 100vh - var(--header-height) );
-  --section-min-height: calc( var(--main-min-height) - var(--nav-height) )
+  --top-total-height: calc(var(--header-height) + var(--nav-height));
+  --main-min-height: calc(100vh - var(--header-height));
+  --section-min-height: calc(var(--main-min-height) - var(--nav-height));
 }
 
 html,
 body {
-    font-family: yekan;
+  font-family: yekan;
   margin: 0;
   min-height: 100% !important;
   height: 100%;
@@ -21,8 +21,6 @@ body {
 *::after {
   box-sizing: border-box;
 }
-
-
 
 body {
   header {
@@ -37,22 +35,23 @@ body {
 
   main {
     *:not(button) {
-  border: 1px dashed gray;
-}
+      /* border: 1px dashed gray; */
+    }
     max-width: 1024px;
     min-height: var(--main-min-height);
     margin: 0 auto;
     padding: 0 16px;
     nav {
       height: var(--nav-height);
+
     }
 
     article {
       display: flex;
       column-gap: 8.3333333%;
       section {
-          width: 41.66666%;
-          min-height: var(--section-min-height);
+        width: 41.66666%;
+        min-height: var(--section-min-height);
         background-color: antiquewhite;
       }
       section:last-child {
