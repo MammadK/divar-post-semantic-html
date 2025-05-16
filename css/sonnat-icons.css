@@ -1,0 +1,3197 @@
+@font-face {
+    font-display: block;
+    font-family: sonnat;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://s100.divarcdn.com/statics/2025/05/sonnat-icons.ce7dc7ac.woff2) format("woff2"),url(https://s100.divarcdn.com/statics/2025/05/sonnat-icons.741e0e9d.woff) format("woff"),url(https://s100.divarcdn.com/statics/2025/05/sonnat-icons.d37139be.ttf) format("truetype"),url(https://s100.divarcdn.com/statics/2025/05/sonnat-icons.a44d7be8.svg#sonnat) format("svg");
+    /* src: url(https://s100.divarcdn.com/statics/2025/05/sonnat-icons.ce7dc7ac.woff2) format("woff2"),url(https://s100.divarcdn.com/statics/2025/05/sonnat-icons.741e0e9d.woff) format("woff"),url(https://s100.divarcdn.com/statics/2025/05/sonnat-icons.d37139be.ttf) format("truetype"),url(sonnat-icons.woff2) format("woff2") */
+}
+
+.kt-icon {
+    text-rendering: auto;
+    background-position: 50%;
+    background-size: contain;
+    display: inline-block;
+    font-family: sonnat!important;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-variant: normal;
+    height: 20px;
+    line-height: 1;
+    vertical-align: middle;
+    width: 20px
+}
+
+.kt-icon--xxl {
+    font-size: 3rem;
+    height: 48px;
+    width: 48px
+}
+
+.kt-icon--xl {
+    font-size: 2rem;
+    height: 32px;
+    width: 32px
+}
+
+.kt-icon--lg {
+    font-size: 1.5rem;
+    height: 24px;
+    width: 24px
+}
+
+.kt-icon--sm {
+    font-size: 1.125rem;
+    height: 18px;
+    width: 18px
+}
+
+.kt-icon--xs {
+    font-size: 1rem;
+    height: 16px;
+    width: 16px
+}
+
+.kt-icon-telephone:before {
+    content: "\e900"
+}
+
+.kt-icon-ladder-collection-f:before {
+    content: "\e901"
+}
+
+.kt-icon-ladder-collection:before {
+    content: "\e902"
+}
+
+.kt-icon-assignment-ind-f:before {
+    content: "\e903"
+}
+
+.kt-icon-house-inspection:before {
+    content: "\e904"
+}
+
+.kt-icon-help:before {
+    content: "\e905"
+}
+
+.kt-icon-vr:before {
+    content: "\e906"
+}
+
+.kt-icon-carousel_indicator-f:before {
+    content: "\e907"
+}
+
+.kt-icon-more-place-f:before {
+    content: "\e908"
+}
+
+.kt-icon-add-place-f:before {
+    content: "\e909"
+}
+
+.kt-icon-voip-f:before {
+    content: "\e90a"
+}
+
+.kt-icon-gear-f:before {
+    content: "\e90b"
+}
+
+.kt-icon-indicator-f:before {
+    content: "\e90c"
+}
+
+.kt-icon-inspect:before {
+    content: "\e90d"
+}
+
+.kt-icon-karnameh-f:before {
+    content: "\e90e"
+}
+
+.kt-icon-terms-f:before {
+    content: "\e90f"
+}
+
+.kt-icon-pin-map-f:before {
+    content: "\e910"
+}
+
+.kt-icon-play-f:before {
+    content: "\e911"
+}
+
+.kt-icon-cart-f:before {
+    content: "\e912"
+}
+
+.kt-icon-skull-f:before {
+    content: "\e913"
+}
+
+.kt-icon-car-body-f:before {
+    content: "\e914"
+}
+
+.kt-icon-nearby-f:before {
+    content: "\e915"
+}
+
+.kt-icon-send-f:before {
+    content: "\e916"
+}
+
+.kt-icon-bell-f:before {
+    content: "\e917"
+}
+
+.kt-icon-cloud-f:before {
+    content: "\e918"
+}
+
+.kt-icon-role-brush-f:before {
+    content: "\e919"
+}
+
+.kt-icon-map-f:before {
+    content: "\e91a"
+}
+
+.kt-icon-share-2-f:before {
+    content: "\e91b"
+}
+
+.kt-icon-headphone-f:before {
+    content: "\e91c"
+}
+
+.kt-icon-verified-badge-f:before,.kt-icon-verified:before {
+    content: "\e91d"
+}
+
+.kt-icon-file-f:before {
+    content: "\e91e"
+}
+
+.kt-icon-files-f:before {
+    content: "\e91f"
+}
+
+.kt-icon-car-documents-f:before {
+    content: "\e920"
+}
+
+.kt-icon-car-options-f:before {
+    content: "\e921"
+}
+
+.kt-icon-car-tires-f:before {
+    content: "\e922"
+}
+
+.kt-icon-car-hydraulics-f:before {
+    content: "\e923"
+}
+
+.kt-icon-car-electronics-f:before {
+    content: "\e924"
+}
+
+.kt-icon-car-engine-f:before {
+    content: "\e925"
+}
+
+.kt-icon-chair-office-f:before {
+    content: "\e926"
+}
+
+.kt-icon-chat-bubble-f:before {
+    content: "\e927"
+}
+
+.kt-icon-delete-f:before {
+    content: "\e928"
+}
+
+.kt-icon-block-f:before {
+    content: "\e929"
+}
+
+.kt-icon-mail-f:before {
+    content: "\e92a"
+}
+
+.kt-icon-edit-f:before {
+    content: "\e92b"
+}
+
+.kt-icon-car-inspection-f:before,.kt-icon-car-inspection:before {
+    content: "\e92c"
+}
+
+.kt-icon-car-inspected:before {
+    content: "\e92d"
+}
+
+.kt-icon-sms-f:before {
+    content: "\e92e"
+}
+
+.kt-icon-text-message-f:before {
+    content: "\e92f"
+}
+
+.kt-icon-tooltip-text-f:before {
+    content: "\e930"
+}
+
+.kt-icon-tooltip-image-f:before {
+    content: "\e931"
+}
+
+.kt-icon-lock-f:before {
+    content: "\e932"
+}
+
+.kt-icon-circle-night-mode-f:before {
+    content: "\e933"
+}
+
+.kt-icon-night-mode-f:before {
+    content: "\e934"
+}
+
+.kt-icon-report-f:before {
+    content: "\e935"
+}
+
+.kt-icon-verified-f:before,.kt-icon-verified-user:before {
+    content: "\e936"
+}
+
+.kt-icon-flag-f:before {
+    content: "\e937"
+}
+
+.kt-icon-payment-f:before,.kt-icon-payment:before {
+    content: "\e938"
+}
+
+.kt-icon-contact-phone:before {
+    content: "\e939"
+}
+
+.kt-icon-star-f:before {
+    content: "\e93a"
+}
+
+.kt-icon-place-f:before {
+    content: "\e93b"
+}
+
+.kt-icon-pin-tilt-f:before {
+    content: "\e93c"
+}
+
+.kt-icon-pin-f:before {
+    content: "\e93d"
+}
+
+.kt-icon-photo-library-f:before {
+    content: "\e93e"
+}
+
+.kt-icon-add-person-f:before {
+    content: "\e93f"
+}
+
+.kt-icon-person-f:before {
+    content: "\e940"
+}
+
+.kt-icon-mic-f:before {
+    content: "\e941"
+}
+
+.kt-icon-photo-f:before {
+    content: "\e942"
+}
+
+.kt-icon-help-f:before {
+    content: "\e943"
+}
+
+.kt-icon-gavel-f:before {
+    content: "\e944"
+}
+
+.kt-icon-trash-f:before {
+    content: "\e945"
+}
+
+.kt-icon-call-end-f:before {
+    content: "\e946"
+}
+
+.kt-icon-brush-f:before {
+    content: "\e947"
+}
+
+.kt-icon-warning-f:before {
+    content: "\e948"
+}
+
+.kt-icon-alert-circle-f:before,.kt-icon-error-circle-f:before {
+    content: "\e949"
+}
+
+.kt-icon-info-circle-f:before {
+    content: "\e94a"
+}
+
+.kt-icon-access-time-circle-f:before {
+    content: "\e952"
+}
+
+.kt-icon-add-circle-f:before {
+    content: "\e94c"
+}
+
+.kt-icon-check-circle-f:before {
+    content: "\e94d"
+}
+
+.kt-icon-remove-circle-f:before {
+    content: "\e94e"
+}
+
+.kt-icon-car-f:before {
+    content: "\e94f"
+}
+
+.kt-icon-info-f:before {
+    content: "\e950"
+}
+
+.kt-icon-added-f:before {
+    content: "\e951"
+}
+
+.kt-icon-access-time-f:before,.kt-icon-access-time:before {
+    content: "\e952"
+}
+
+.kt-icon-eye-f:before,.kt-icon-visibility-f:before {
+    content: "\e953"
+}
+
+.kt-icon-dialog-f:before {
+    content: "\e954"
+}
+
+.kt-icon-bookmark-f:before,.kt-icon-bookmark:before {
+    content: "\e955"
+}
+
+.kt-icon-call-f:before,.kt-icon-call:before {
+    content: "\e956"
+}
+
+.kt-icon-favourite-f:before {
+    content: "\e957"
+}
+
+.kt-icon-cancel-f:before {
+    content: "\e958"
+}
+
+.kt-icon-checked-f:before {
+    content: "\e959"
+}
+
+.kt-icon-carousel_indicator-o:before {
+    content: "\e95a"
+}
+
+.kt-icon-mouse-thin-o:before {
+    content: "\e95b"
+}
+
+.kt-icon-mouse-thick-o:before {
+    content: "\e95c"
+}
+
+.kt-icon-event-note:before {
+    content: "\e95d"
+}
+
+.kt-icon-more-place-o:before {
+    content: "\e95e"
+}
+
+.kt-icon-add-place-o:before {
+    content: "\e95f"
+}
+
+.kt-icon-voip-o:before {
+    content: "\e960"
+}
+
+.kt-icon-call-o:before {
+    content: "\e961"
+}
+
+.kt-icon-elevator-o:before,.kt-icon-elevator:before {
+    content: "\e962"
+}
+
+.kt-icon-social-linkedin-inverted:before {
+    content: "\e963"
+}
+
+.kt-icon-social-linkedin:before {
+    content: "\e964"
+}
+
+.kt-icon-call-received-o:before {
+    content: "\e965"
+}
+
+.kt-icon-call-made-o:before {
+    content: "\e966"
+}
+
+.kt-icon-report:before {
+    content: "\e967"
+}
+
+.kt-icon-gear-o:before {
+    content: "\e968"
+}
+
+.kt-icon-remaining-time-o:before {
+    content: "\e969"
+}
+
+.kt-icon-support:before {
+    content: "\e96a"
+}
+
+.kt-icon-money:before {
+    content: "\e96b"
+}
+
+.kt-icon-circle-o:before {
+    content: "\e96c"
+}
+
+.kt-icon-info-outline:before {
+    content: "\e96d"
+}
+
+.kt-icon-cat-vehicles:before {
+    content: "\e96e"
+}
+
+.kt-icon-cat-electronic-devices:before {
+    content: "\e96f"
+}
+
+.kt-icon-terms:before {
+    content: "\e970"
+}
+
+.kt-icon-social-karnameh:before {
+    content: "\e971"
+}
+
+.kt-icon-social-karnameh-badge:before {
+    content: "\e972"
+}
+
+.kt-icon-social-karnameh-check:before {
+    content: "\e973"
+}
+
+.kt-icon-social-github-head:before {
+    content: "\e974"
+}
+
+.kt-icon-social-instagram-fill:before {
+    content: "\e975"
+}
+
+.kt-icon-social-facebook-f:before {
+    content: "\e976"
+}
+
+.kt-icon-minus-o:before {
+    content: "\e977"
+}
+
+.kt-icon-flip-o:before {
+    content: "\e978"
+}
+
+.kt-icon-play-o:before {
+    content: "\e979"
+}
+
+.kt-icon-cart-o:before {
+    content: "\e97a"
+}
+
+.kt-icon-skull-o:before {
+    content: "\e97b"
+}
+
+.kt-icon-finger-print-o:before {
+    content: "\e97c"
+}
+
+.kt-icon-keyboard-arrow-right-large-o:before {
+    content: "\e97d"
+}
+
+.kt-icon-keyboard-arrow-left-large-o:before {
+    content: "\e97e"
+}
+
+.kt-icon-car-body:before {
+    content: "\e97f"
+}
+
+.kt-icon-nearby-o:before {
+    content: "\e980"
+}
+
+.kt-icon-send:before {
+    content: "\e981"
+}
+
+.kt-icon-bell-o:before {
+    content: "\e982"
+}
+
+.kt-icon-cloud-o:before {
+    content: "\e983"
+}
+
+.kt-icon-cloud-upload-o:before {
+    content: "\e984"
+}
+
+.kt-icon-add-photo-o:before {
+    content: "\e985"
+}
+
+.kt-icon-map-o:before {
+    content: "\e986"
+}
+
+.kt-icon-headphone-o:before {
+    content: "\e987"
+}
+
+.kt-icon-file-o:before {
+    content: "\e988"
+}
+
+.kt-icon-files-o:before {
+    content: "\e989"
+}
+
+.kt-icon-car-documents:before {
+    content: "\e98a"
+}
+
+.kt-icon-car-tires:before {
+    content: "\e98b"
+}
+
+.kt-icon-car-options:before {
+    content: "\e98c"
+}
+
+.kt-icon-car-hydraulics:before {
+    content: "\e98d"
+}
+
+.kt-icon-car-electronics:before,.kt-icon-speedometer:before {
+    content: "\e98e"
+}
+
+.kt-icon-car-engine:before {
+    content: "\e98f"
+}
+
+.kt-icon-share-2-o:before {
+    content: "\e990"
+}
+
+.kt-icon-link-o:before {
+    content: "\e991"
+}
+
+.kt-icon-chair-office-o:before {
+    content: "\e992"
+}
+
+.kt-icon-social-apple:before {
+    content: "\e993"
+}
+
+.kt-icon-social-cafebazaar-type:before {
+    content: "\e994"
+}
+
+.kt-icon-log-in-o:before {
+    content: "\e995"
+}
+
+.kt-icon-log-out-o:before,.kt-icon-logout:before {
+    content: "\e996"
+}
+
+.kt-icon-chat-bubble:before {
+    content: "\e997"
+}
+
+.kt-icon-paint-brush-o:before {
+    content: "\e998"
+}
+
+.kt-icon-gift-o:before {
+    content: "\e999"
+}
+
+.kt-icon-arrow-downward-large-o:before {
+    content: "\e99a"
+}
+
+.kt-icon-arrow-upward-large-o:before {
+    content: "\e99b"
+}
+
+.kt-icon-arrow-forward-large-o:before {
+    content: "\e99c"
+}
+
+.kt-icon-arrow-backward-large-o:before {
+    content: "\e99d"
+}
+
+.kt-icon-show-chart:before {
+    content: "\e99e"
+}
+
+.kt-icon-delete:before {
+    content: "\e99f"
+}
+
+.kt-icon-social-sonnat-thin:before {
+    content: "\e9a0"
+}
+
+.kt-icon-social-sonnat-medium:before {
+    content: "\e9a1"
+}
+
+.kt-icon-social-sonnat-thick:before {
+    content: "\e9a2"
+}
+
+.kt-icon-social-facebook:before {
+    content: "\e9a3"
+}
+
+.kt-icon-social-medium:before {
+    content: "\e9a4"
+}
+
+.kt-icon-social-gitlab:before {
+    content: "\e9a5"
+}
+
+.kt-icon-social-twitter:before {
+    content: "\e9a6"
+}
+
+.kt-icon-social-instagram:before {
+    content: "\e9a7"
+}
+
+.kt-icon-toc:before {
+    content: "\e9a8"
+}
+
+.kt-icon-social-divar:before {
+    content: "\e9a9"
+}
+
+.kt-icon-sms-o:before {
+    content: "\e9aa"
+}
+
+.kt-icon-text-message-o:before {
+    content: "\e9ab"
+}
+
+.kt-icon-tooltip-text-o:before {
+    content: "\e9ac"
+}
+
+.kt-icon-tooltip-image-o:before {
+    content: "\e9ad"
+}
+
+.kt-icon-ladder-group:before {
+    content: "\e9ae"
+}
+
+.kt-icon-ladder-o:before,.kt-icon-ladder:before {
+    content: "\e9af"
+}
+
+.kt-icon-lock:before {
+    content: "\e9b0"
+}
+
+.kt-icon-circle-night-mode-o:before {
+    content: "\e9b1"
+}
+
+.kt-icon-night-mode-o:before {
+    content: "\e9b2"
+}
+
+.kt-icon-my-location-o:before {
+    content: "\e9b3"
+}
+
+.kt-icon-more-horizontal-o:before {
+    content: "\e9b4"
+}
+
+.kt-icon-more-vertical-o:before {
+    content: "\e9b5"
+}
+
+.kt-icon-mobile-friendly-o:before {
+    content: "\e9b6"
+}
+
+.kt-icon-trending-up:before {
+    content: "\e9b7"
+}
+
+.kt-icon-verified-o:before {
+    content: "\e9b8"
+}
+
+.kt-icon-share-o:before {
+    content: "\e9b9"
+}
+
+.kt-icon-flag-o:before {
+    content: "\e9ba"
+}
+
+.kt-icon-flag-wave-o:before {
+    content: "\e9bb"
+}
+
+.kt-icon-crop-square-o:before {
+    content: "\e9bc"
+}
+
+.kt-icon-crop-4-3-o:before {
+    content: "\e9bd"
+}
+
+.kt-icon-crop-o:before {
+    content: "\e9be"
+}
+
+.kt-icon-payment-outline:before {
+    content: "\e9bf"
+}
+
+.kt-icon-star-half-right-o:before {
+    content: "\e9c0"
+}
+
+.kt-icon-star-half-left-o:before {
+    content: "\e9c1"
+}
+
+.kt-icon-star-o:before {
+    content: "\e9c2"
+}
+
+.kt-icon-read-o:before {
+    content: "\e9c3"
+}
+
+.kt-icon-map-marker:before,.kt-icon-place:before {
+    content: "\e9c4"
+}
+
+.kt-icon-pin-tilt-o:before {
+    content: "\e9c5"
+}
+
+.kt-icon-pin-o:before {
+    content: "\e9c6"
+}
+
+.kt-icon-image-multiple:before,.kt-icon-photo-library:before {
+    content: "\e9c7"
+}
+
+.kt-icon-add-person-o:before,.kt-icon-person-add:before {
+    content: "\e9c8"
+}
+
+.kt-icon-person:before {
+    content: "\e9c9"
+}
+
+.kt-icon-mic-o:before {
+    content: "\e9ca"
+}
+
+.kt-icon-photo-o:before {
+    content: "\e9cb"
+}
+
+.kt-icon-help-outline:before {
+    content: "\e9cc"
+}
+
+.kt-icon-gavel:before {
+    content: "\e9cd"
+}
+
+.kt-icon-full-screen-o:before {
+    content: "\e9ce"
+}
+
+.kt-icon-trash-o:before {
+    content: "\e9cf"
+}
+
+.kt-icon-eraser-o:before {
+    content: "\e9d0"
+}
+
+.kt-icon-call-end-o:before {
+    content: "\e9d1"
+}
+
+.kt-icon-brush-o:before {
+    content: "\e9d2"
+}
+
+.kt-icon-dollor-o:before {
+    content: "\e9d3"
+}
+
+.kt-icon-rotate-90-o:before {
+    content: "\e9d4"
+}
+
+.kt-icon-cached-o:before {
+    content: "\e9d5"
+}
+
+.kt-icon-renew-o:before {
+    content: "\e9d6"
+}
+
+.kt-icon-rotate-left-o:before {
+    content: "\e9d7"
+}
+
+.kt-icon-rotate-right-o:before {
+    content: "\e9d8"
+}
+
+.kt-icon-refresh:before {
+    content: "\e9d9"
+}
+
+.kt-icon-warning:before {
+    content: "\e9da"
+}
+
+.kt-icon-alert-circle-o:before,.kt-icon-error-circle-o:before {
+    content: "\e9db"
+}
+
+.kt-icon-info-circle-o:before {
+    content: "\e9dc"
+}
+
+.kt-icon-access-time-circle-o:before {
+    content: "\e9f7"
+}
+
+.kt-icon-add-circle:before {
+    content: "\e9de"
+}
+
+.kt-icon-check-circle:before {
+    content: "\e9df"
+}
+
+.kt-icon-remove-circle-o:before {
+    content: "\e9e0"
+}
+
+.kt-icon-info-o:before {
+    content: "\e9e1"
+}
+
+.kt-icon-block:before {
+    content: "\e9e2"
+}
+
+.kt-icon-add-camera-o:before {
+    content: "\e9e3"
+}
+
+.kt-icon-timer:before {
+    content: "\e9e4"
+}
+
+.kt-icon-history:before {
+    content: "\e9e5"
+}
+
+.kt-icon-added-o:before {
+    content: "\e9e6"
+}
+
+.kt-icon-add:before {
+    content: "\e9e7"
+}
+
+.kt-icon-remove:before {
+    content: "\e9e8"
+}
+
+.kt-icon-check-o:before {
+    content: "\e9e9"
+}
+
+.kt-icon-arrow-downward-o:before {
+    content: "\e9ea"
+}
+
+.kt-icon-arrow-upward-o:before {
+    content: "\e9eb"
+}
+
+.kt-icon-arrow-forward:before {
+    content: "\e9ec"
+}
+
+.kt-icon-arrow-backward-o:before {
+    content: "\e9ed"
+}
+
+.kt-icon-search-large-o:before {
+    content: "\e9ee"
+}
+
+.kt-icon-suitcase-o:before {
+    content: "\e9ef"
+}
+
+.kt-icon-apartment-o:before {
+    content: "\e9f0"
+}
+
+.kt-icon-real-estate:before {
+    content: "\e9f1"
+}
+
+.kt-icon-burger-menu-o:before {
+    content: "\e9f2"
+}
+
+.kt-icon-add-note-o:before {
+    content: "\e9f3"
+}
+
+.kt-icon-add-note-detailed-o:before {
+    content: "\e9f4"
+}
+
+.kt-icon-car-o:before {
+    content: "\e9f5"
+}
+
+.kt-icon-close:before {
+    content: "\e9f6"
+}
+
+.kt-icon-access-time-outline:before,.kt-icon-clock:before {
+    content: "\e9f7"
+}
+
+.kt-icon-analog-watch:before,.kt-icon-wrest-watch-o:before {
+    content: "\e9f8"
+}
+
+.kt-icon-eye:before,.kt-icon-visibility:before {
+    content: "\e9f9"
+}
+
+.kt-icon-tablet-o:before {
+    content: "\e9fa"
+}
+
+.kt-icon-setting-o:before {
+    content: "\e9fb"
+}
+
+.kt-icon-search-o:before {
+    content: "\e9fc"
+}
+
+.kt-icon-role-brush-o:before {
+    content: "\e9fd"
+}
+
+.kt-icon-camera-loading-o:before {
+    content: "\e9fe"
+}
+
+.kt-icon-paperclip-thin-o:before {
+    content: "\e9ff"
+}
+
+.kt-icon-paperclip-thick-o:before {
+    content: "\ea00"
+}
+
+.kt-icon-note-o:before,.kt-icon-note-outline:before {
+    content: "\ea01"
+}
+
+.kt-icon-mobile-o:before {
+    content: "\ea02"
+}
+
+.kt-icon-email-outline:before {
+    content: "\ea03"
+}
+
+.kt-icon-lamp-o:before {
+    content: "\ea04"
+}
+
+.kt-icon-funnel-o:before {
+    content: "\ea05"
+}
+
+.kt-icon-filter-o:before {
+    content: "\ea06"
+}
+
+.kt-icon-favourite-o:before {
+    content: "\ea07"
+}
+
+.kt-icon-edit:before {
+    content: "\ea08"
+}
+
+.kt-icon-dice-o:before {
+    content: "\ea09"
+}
+
+.kt-icon-dialog-o:before {
+    content: "\ea0a"
+}
+
+.kt-icon-cancel:before {
+    content: "\ea0b"
+}
+
+.kt-icon-content-copy:before {
+    content: "\ea0c"
+}
+
+.kt-icon-community:before {
+    content: "\ea0d"
+}
+
+.kt-icon-checked:before {
+    content: "\ea0e"
+}
+
+.kt-icon-camera-o:before {
+    content: "\ea0f"
+}
+
+.kt-icon-bookmark-border:before,.kt-icon-bookmark-o:before {
+    content: "\ea10"
+}
+
+.kt-icon-keyboard-arrow-up-o:before {
+    content: "\ea11"
+}
+
+.kt-icon-keyboard-arrow-right:before {
+    content: "\ea12"
+}
+
+.kt-icon-keyboard-arrow-left:before {
+    content: "\ea13"
+}
+
+.kt-icon-keyboard-arrow-down-o:before {
+    content: "\ea14"
+}
+
+.kt-icon-advert-o:before,.kt-icon-advert-outline:before {
+    content: "\ea15"
+}
+
+.kt-icon-share:before {
+    content: "\ea16"
+}
+
+.kt-icon-backward-15-o:before {
+    content: "\ea17"
+}
+
+.kt-icon-balcony-o:before,.kt-icon-balcony:before {
+    content: "\ea18"
+}
+
+.kt-icon-cabinet-o:before,.kt-icon-cabinet:before {
+    content: "\ea19"
+}
+
+.kt-icon-doc-o:before {
+    content: "\ea1a"
+}
+
+.kt-icon-forward-15-o:before {
+    content: "\ea1b"
+}
+
+.kt-icon-parking-o:before,.kt-icon-parking:before {
+    content: "\ea1c"
+}
+
+.kt-icon-snowflake-o:before,.kt-icon-snowflake:before {
+    content: "\ea1d"
+}
+
+.kt-icon-store-o:before {
+    content: "\ea1e"
+}
+
+.kt-icon-sunny-o:before,.kt-icon-sunny:before {
+    content: "\ea1f"
+}
+
+.kt-icon-texture-o:before,.kt-icon-texture:before {
+    content: "\ea20"
+}
+
+.kt-icon-thermometer-o:before,.kt-icon-thermometer:before {
+    content: "\ea21"
+}
+
+.kt-icon-thumb-down-f:before {
+    content: "\ea22"
+}
+
+.kt-icon-thumb-down-o:before {
+    content: "\ea23"
+}
+
+.kt-icon-thumb-up-f:before {
+    content: "\ea24"
+}
+
+.kt-icon-thumb-up-o:before {
+    content: "\ea25"
+}
+
+.kt-icon-virus-o:before {
+    content: "\ea26"
+}
+
+.kt-icon-wc-o:before,.kt-icon-wc:before {
+    content: "\ea27"
+}
+
+.kt-icon-camera-off-o:before {
+    content: "\ea28"
+}
+
+.kt-icon-social-virgool:before {
+    content: "\ea29"
+}
+
+.kt-icon-binder-o:before,.kt-icon-binder-outline:before {
+    content: "\ea2a"
+}
+
+.kt-icon-binder-f:before,.kt-icon-binder:before {
+    content: "\ea2b"
+}
+
+.kt-icon-car-safety-f:before {
+    content: "\ea2c"
+}
+
+.kt-icon-car-amenity-f:before {
+    content: "\ea2d"
+}
+
+.kt-icon-car-equipment-f:before {
+    content: "\ea2e"
+}
+
+.kt-icon-translate:before {
+    content: "\ea2f"
+}
+
+.kt-icon-hand-click:before {
+    content: "\ea30"
+}
+
+.kt-icon-car-safety:before {
+    content: "\ea31"
+}
+
+.kt-icon-car-amenity:before {
+    content: "\ea32"
+}
+
+.kt-icon-car-equipment:before {
+    content: "\ea33"
+}
+
+.kt-icon-social-aparat:before {
+    content: "\ea34"
+}
+
+.kt-icon-doc-f:before {
+    content: "\ea35"
+}
+
+.kt-icon-hash-o:before {
+    content: "\ea36"
+}
+
+.kt-icon-speaker-down-f:before {
+    content: "\ea37"
+}
+
+.kt-icon-speaker-mute-f:before {
+    content: "\ea38"
+}
+
+.kt-icon-speaker-off-f:before {
+    content: "\ea39"
+}
+
+.kt-icon-speaker-up-f:before {
+    content: "\ea3a"
+}
+
+.kt-icon-credit-account-o:before,.kt-icon-credit-account:before {
+    content: "\ea3b"
+}
+
+.kt-icon-local-shipping-f:before {
+    content: "\ea3c"
+}
+
+.kt-icon-local-shipping-o:before,.kt-icon-local-shipping:before {
+    content: "\ea3d"
+}
+
+.kt-icon-moped-f:before {
+    content: "\ea3e"
+}
+
+.kt-icon-moped-o:before,.kt-icon-moped:before {
+    content: "\ea3f"
+}
+
+.kt-icon-social-telegram:before {
+    content: "\ea40"
+}
+
+.kt-icon-triangle-top-f:before {
+    content: "\ea41"
+}
+
+.kt-icon-keyboard-arrow-left-f:before {
+    content: "\ea42"
+}
+
+.kt-icon-keyboard-arrow-right-f:before {
+    content: "\ea43"
+}
+
+.kt-icon-feedback-f:before {
+    content: "\ea44"
+}
+
+.kt-icon-feedback-o:before,.kt-icon-post-feedback:before {
+    content: "\ea45"
+}
+
+.kt-icon-social-android:before {
+    content: "\ea46"
+}
+
+.kt-icon-doc-o1:before {
+    content: "\ea47"
+}
+
+.kt-icon-image-outline-o:before,.kt-icon-image-outline:before {
+    content: "\ea48"
+}
+
+.kt-icon-info-circle-o1:before {
+    content: "\ea49"
+}
+
+.kt-icon-analytics:before {
+    content: "\ea4a"
+}
+
+.kt-icon-analytics-outline:before {
+    content: "\ea4b"
+}
+
+.kt-icon-download-o:before {
+    content: "\ea4c"
+}
+
+.kt-icon-store-f:before {
+    content: "\ea4d"
+}
+
+.kt-icon-real-estate-f:before {
+    content: "\ea4e"
+}
+
+.kt-icon-article:before {
+    content: "\ea52"
+}
+
+.kt-icon-article-o:before,.kt-icon-article-outline-o:before {
+    content: "\ea57"
+}
+
+.kt-icon-home:before {
+    content: "\ea55"
+}
+
+.kt-icon-home-outline:before {
+    content: "\ea56"
+}
+
+.kt-icon-article-outline:before {
+    content: "\ea57"
+}
+
+.kt-icon-add-circle-outline:before {
+    content: "\ea58"
+}
+
+.kt-icon-archway:before {
+    content: "\ea59"
+}
+
+.kt-icon-assignment-ind-o:before,.kt-icon-assignment-ind-outline:before,.kt-icon-assignment-ind:before {
+    content: "\ea5a"
+}
+
+.kt-icon-cat-businesses:before {
+    content: "\ea5b"
+}
+
+.kt-icon-metro:before {
+    content: "\ea5c"
+}
+
+.kt-icon-poi:before {
+    content: "\ea5d"
+}
+
+.kt-icon-street-sign:before {
+    content: "\ea5e"
+}
+
+.kt-icon-tag-check-circle:before {
+    content: "\ea5f"
+}
+
+.kt-icon-tag:before {
+    content: "\ea60"
+}
+
+.kt-icon-wrench:before {
+    content: "\ea61"
+}
+
+.kt-icon-trees:before {
+    content: "\ea62"
+}
+
+.kt-icon-calendar-dollor:before {
+    content: "\ea63"
+}
+
+.kt-icon-math:before {
+    content: "\ea64"
+}
+
+.kt-icon-calculator:before {
+    content: "\ea65"
+}
+
+.kt-icon-calendar-dollor-outline:before {
+    content: "\ea66"
+}
+
+.kt-icon-support-agent:before {
+    content: "\ea67"
+}
+
+.kt-icon-math-outline:before {
+    content: "\ea68"
+}
+
+.kt-icon-calculator-outline:before {
+    content: "\ea69"
+}
+
+.kt-icon-barbecue-outline:before {
+    content: "\ea6a"
+}
+
+.kt-icon-barbecue:before {
+    content: "\ea6b"
+}
+
+.kt-icon-tag-outline:before {
+    content: "\ea6c"
+}
+
+.kt-icon-wrench-outline:before {
+    content: "\ea6d"
+}
+
+.kt-icon-bolt-outline:before {
+    content: "\ea6e"
+}
+
+.kt-icon-bolt:before {
+    content: "\ea6f"
+}
+
+.kt-icon-community-cycle-outline:before {
+    content: "\ea70"
+}
+
+.kt-icon-community-cycle:before {
+    content: "\ea71"
+}
+
+.kt-icon-drop-bolt-outline:before {
+    content: "\ea72"
+}
+
+.kt-icon-drop-bolt:before {
+    content: "\ea73"
+}
+
+.kt-icon-drop-outline:before {
+    content: "\ea74"
+}
+
+.kt-icon-drop:before {
+    content: "\ea75"
+}
+
+.kt-icon-jacuzzi-outline:before {
+    content: "\ea76"
+}
+
+.kt-icon-jacuzzi:before {
+    content: "\ea77"
+}
+
+.kt-icon-police-outline:before {
+    content: "\ea78"
+}
+
+.kt-icon-police:before {
+    content: "\ea79"
+}
+
+.kt-icon-pool:before {
+    content: "\ea7a"
+}
+
+.kt-icon-sauna-outline:before {
+    content: "\ea7b"
+}
+
+.kt-icon-sauna:before {
+    content: "\ea7c"
+}
+
+.kt-icon-school-outline:before {
+    content: "\ea7d"
+}
+
+.kt-icon-school:before {
+    content: "\ea7e"
+}
+
+.kt-icon-baby:before {
+    content: "\ea80"
+}
+
+.kt-icon-backpack:before {
+    content: "\ea81"
+}
+
+.kt-icon-baguette:before {
+    content: "\ea82"
+}
+
+.kt-icon-bus:before {
+    content: "\ea83"
+}
+
+.kt-icon-capsule:before {
+    content: "\ea84"
+}
+
+.kt-icon-carpet:before {
+    content: "\ea85"
+}
+
+.kt-icon-coffee:before {
+    content: "\ea86"
+}
+
+.kt-icon-console:before,.kt-icon-controller:before {
+    content: "\ea87"
+}
+
+.kt-icon-dish-washing-machine:before {
+    content: "\ea88"
+}
+
+.kt-icon-exchange-outline:before {
+    content: "\ea89"
+}
+
+.kt-icon-exchange:before {
+    content: "\ea8a"
+}
+
+.kt-icon-film:before {
+    content: "\ea8b"
+}
+
+.kt-icon-fridge:before {
+    content: "\ea8c"
+}
+
+.kt-icon-fruit:before {
+    content: "\ea8d"
+}
+
+.kt-icon-gas-station:before {
+    content: "\ea8e"
+}
+
+.kt-icon-glass:before {
+    content: "\ea8f"
+}
+
+.kt-icon-gym:before {
+    content: "\ea90"
+}
+
+.kt-icon-hamburger:before {
+    content: "\ea91"
+}
+
+.kt-icon-highway:before {
+    content: "\ea92"
+}
+
+.kt-icon-hospital:before {
+    content: "\ea93"
+}
+
+.kt-icon-light-bulb:before {
+    content: "\ea94"
+}
+
+.kt-icon-medic:before,.kt-icon-medical:before {
+    content: "\ea95"
+}
+
+.kt-icon-mosque:before {
+    content: "\ea96"
+}
+
+.kt-icon-videocam:before {
+    content: "\ea97"
+}
+
+.kt-icon-restaurant:before {
+    content: "\ea98"
+}
+
+.kt-icon-shopping:before {
+    content: "\ea99"
+}
+
+.kt-icon-sofa:before {
+    content: "\ea9a"
+}
+
+.kt-icon-stethoscope:before {
+    content: "\ea9b"
+}
+
+.kt-icon-syringe:before {
+    content: "\ea9c"
+}
+
+.kt-icon-taxi:before {
+    content: "\ea9d"
+}
+
+.kt-icon-contact-phone-o:before {
+    content: "\ea9e"
+}
+
+.kt-icon-washing-machine:before {
+    content: "\ea9f"
+}
+
+.kt-icon-camera-loading:before {
+    content: "\eaa0"
+}
+
+.kt-icon-videocam-o:before {
+    content: "\eaa1"
+}
+
+.kt-icon-camera-off:before {
+    content: "\eaa2"
+}
+
+.kt-icon-reply:before {
+    content: "\eaa3"
+}
+
+.kt-icon-camera:before {
+    content: "\eaa4"
+}
+
+.kt-icon-reply-o:before {
+    content: "\eaa5"
+}
+
+.kt-icon-eye-off-f:before {
+    content: "\eaa6"
+}
+
+.kt-icon-pause:before {
+    content: "\eaa7"
+}
+
+.kt-icon-eye-off:before {
+    content: "\eaa8"
+}
+
+.kt-icon-add-video:before {
+    content: "\eaa9"
+}
+
+.kt-icon-pause-o:before {
+    content: "\eaaa"
+}
+
+.kt-icon-compare-o:before {
+    content: "\eaab"
+}
+
+.kt-icon-compare:before {
+    content: "\eaac"
+}
+
+.kt-icon-shield-phone-o:before {
+    content: "\eaad"
+}
+
+.kt-icon-shield-phone:before {
+    content: "\eaae"
+}
+
+.kt-icon-tune:before {
+    content: "\eaaf"
+}
+
+.kt-icon-video-library:before {
+    content: "\eab0"
+}
+
+.kt-icon-earnest:before {
+    content: "\eab1"
+}
+
+.kt-icon-battery-50:before {
+    content: "\eab2"
+}
+
+.kt-icon-memory:before {
+    content: "\eab3"
+}
+
+.kt-icon-palette:before {
+    content: "\eab4"
+}
+
+.kt-icon-screenshot:before {
+    content: "\eab5"
+}
+
+.kt-icon-sd:before {
+    content: "\eab6"
+}
+
+.kt-icon-shield-check-circle-o:before {
+    content: "\eab7"
+}
+
+.kt-icon-shield-check-circle:before {
+    content: "\eab8"
+}
+
+.kt-icon-shield-check-o:before {
+    content: "\eab9"
+}
+
+.kt-icon-shield-check:before {
+    content: "\eaba"
+}
+
+.kt-icon-sim:before {
+    content: "\eabb"
+}
+
+.kt-icon-fa-number-1-circle-o:before {
+    content: "\eabc"
+}
+
+.kt-icon-fa-number-2-circle-o:before {
+    content: "\eabd"
+}
+
+.kt-icon-fa-number-3-circle-o:before {
+    content: "\eabe"
+}
+
+.kt-icon-fa-number-4-circle-o:before {
+    content: "\eabf"
+}
+
+.kt-icon-fa-number-5-circle-o:before {
+    content: "\eac0"
+}
+
+.kt-icon-fa-number-6-circle-o:before {
+    content: "\eac1"
+}
+
+.kt-icon-fa-number-7-circle-o:before {
+    content: "\eac2"
+}
+
+.kt-icon-fa-number-8-circle-o:before {
+    content: "\eac3"
+}
+
+.kt-icon-fa-number-9-circle-o:before {
+    content: "\eac4"
+}
+
+.kt-icon-wifi-off:before {
+    content: "\eac5"
+}
+
+.kt-icon-wifi:before {
+    content: "\eac6"
+}
+
+.kt-icon-sort-ascending:before {
+    content: "\eac7"
+}
+
+.kt-icon-sort-descending:before {
+    content: "\eac8"
+}
+
+.kt-icon-sort:before {
+    content: "\eac9"
+}
+
+.kt-icon-pwa:before {
+    content: "\eaca"
+}
+
+.kt-icon-chat-bot:before,.kt-icon-chatbot:before {
+    content: "\eacb"
+}
+
+.kt-icon-chat-bot-o:before,.kt-icon-chatbot-outline:before {
+    content: "\eacc"
+}
+
+.kt-icon-melange-o:before {
+    content: "\eacd"
+}
+
+.kt-icon-melange:before,.kt-icon-sparkles-f:before {
+    content: "\eace"
+}
+
+.kt-icon-zoom-out:before {
+    content: "\eacf"
+}
+
+.kt-icon-zoom-in:before {
+    content: "\ead0"
+}
+
+.kt-icon-puzzle:before {
+    content: "\ead1"
+}
+
+.kt-icon-puzzle-o:before {
+    content: "\ead2"
+}
+
+.kt-icon-archive-o:before {
+    content: "\ead3"
+}
+
+.kt-icon-wallet-o:before {
+    content: "\ead4"
+}
+
+.kt-icon-wallet:before {
+    content: "\ead5"
+}
+
+.kt-icon-archive:before {
+    content: "\ead6"
+}
+
+.kt-icon-hammer-screwdriver-o:before {
+    content: "\ead7"
+}
+
+.kt-icon-hammer-screwdriver:before {
+    content: "\ead8"
+}
+
+.kt-icon-battery-charging:before {
+    content: "\ead9"
+}
+
+.kt-icon-battery-horiz-075:before {
+    content: "\eada"
+}
+
+.kt-icon-battery-profile:before {
+    content: "\eadb"
+}
+
+.kt-icon-build-circle:before {
+    content: "\eadc"
+}
+
+.kt-icon-headphones:before {
+    content: "\eadd"
+}
+
+.kt-icon-home-inspection:before {
+    content: "\eade"
+}
+
+.kt-icon-credit-card-o:before {
+    content: "\eadf"
+}
+
+.kt-icon-inventory:before {
+    content: "\eae0"
+}
+
+.kt-icon-mobile-inspection:before {
+    content: "\eae1"
+}
+
+.kt-icon-resume-o:before {
+    content: "\eae2"
+}
+
+.kt-icon-smartphone:before {
+    content: "\eae3"
+}
+
+.kt-icon-resume:before {
+    content: "\eae4"
+}
+
+.kt-icon-stairs-up:before,.kt-icon-stairs:before {
+    content: "\eae5"
+}
+
+.kt-icon-earth-large-o:before,.kt-icon-world-map:before {
+    content: "\eae6"
+}
+
+.kt-icon-earth-o:before {
+    content: "\eae7"
+}
+
+.kt-icon-chat-double:before {
+    content: "\eae8"
+}
+
+.kt-icon-smart-watch:before {
+    content: "\eae9"
+}
+
+.kt-icon-skin-care:before {
+    content: "\eaea"
+}
+
+.kt-icon-jewelry-ring:before,.kt-icon-ring:before {
+    content: "\eaeb"
+}
+
+.kt-icon-perfumes:before {
+    content: "\eaec"
+}
+
+.kt-icon-jewelry-set:before {
+    content: "\eaed"
+}
+
+.kt-icon-ankle-boots:before {
+    content: "\eaee"
+}
+
+.kt-icon-credit-card:before {
+    content: "\eaef"
+}
+
+.kt-icon-cosmetics:before {
+    content: "\eaf0"
+}
+
+.kt-icon-launch:before {
+    content: "\eaf1"
+}
+
+.kt-icon-jewelry-anklet:before {
+    content: "\eaf2"
+}
+
+.kt-icon-man-and-woman:before {
+    content: "\eaf3"
+}
+
+.kt-icon-jewelry-necklace:before,.kt-icon-necklace:before {
+    content: "\eaf4"
+}
+
+.kt-icon-sandals:before {
+    content: "\eaf5"
+}
+
+.kt-icon-earrings:before,.kt-icon-jewelry-earrings:before {
+    content: "\eaf6"
+}
+
+.kt-icon-herbal-pills:before {
+    content: "\eaf7"
+}
+
+.kt-icon-iran-map:before {
+    content: "\eaf8"
+}
+
+.kt-icon-loafers:before {
+    content: "\eaf9"
+}
+
+.kt-icon-boots:before {
+    content: "\eafa"
+}
+
+.kt-icon-fanny-pack:before {
+    content: "\eafb"
+}
+
+.kt-icon-bracelet:before,.kt-icon-jewelry-bracelet:before {
+    content: "\eafc"
+}
+
+.kt-icon-digital-watch:before {
+    content: "\eafd"
+}
+
+.kt-icon-dress-shoes:before {
+    content: "\eafe"
+}
+
+.kt-icon-slippers:before {
+    content: "\eaff"
+}
+
+.kt-icon-sneakers:before {
+    content: "\eb00"
+}
+
+.kt-icon-man:before {
+    content: "\eb01"
+}
+
+.kt-icon-woman:before {
+    content: "\eb02"
+}
+
+.kt-icon-sim-holder:before {
+    content: "\eb03"
+}
+
+.kt-icon-barter:before {
+    content: "\eb04"
+}
+
+.kt-icon-capacity:before {
+    content: "\eb05"
+}
+
+.kt-icon-chandelier:before {
+    content: "\eb06"
+}
+
+.kt-icon-color-beaker:before {
+    content: "\eb07"
+}
+
+.kt-icon-handbag:before {
+    content: "\eb08"
+}
+
+.kt-icon-original-badge:before {
+    content: "\eb09"
+}
+
+.kt-icon-paper-deed:before {
+    content: "\eb0a"
+}
+
+.kt-icon-scissors:before {
+    content: "\eb0b"
+}
+
+.kt-icon-side-table:before {
+    content: "\eb0c"
+}
+
+.kt-icon-administrative-doc:before {
+    content: "\eb0d"
+}
+
+.kt-icon-carpet-dimensions:before {
+    content: "\eb0e"
+}
+
+.kt-icon-chairs:before {
+    content: "\eb0f"
+}
+
+.kt-icon-condition:before {
+    content: "\eb10"
+}
+
+.kt-icon-door:before {
+    content: "\eb11"
+}
+
+.kt-icon-electrical:before {
+    content: "\eb12"
+}
+
+.kt-icon-fake-badge:before {
+    content: "\eb13"
+}
+
+.kt-icon-home-area:before {
+    content: "\eb14"
+}
+
+.kt-icon-installment-sale:before {
+    content: "\eb15"
+}
+
+.kt-icon-irancell:before {
+    content: "\eb16"
+}
+
+.kt-icon-material:before {
+    content: "\eb17"
+}
+
+.kt-icon-mci:before {
+    content: "\eb18"
+}
+
+.kt-icon-nintendo:before {
+    content: "\eb19"
+}
+
+.kt-icon-parking-lot:before {
+    content: "\eb1a"
+}
+
+.kt-icon-play-station:before {
+    content: "\eb1b"
+}
+
+.kt-icon-receiving-hand:before {
+    content: "\eb1c"
+}
+
+.kt-icon-rightel:before {
+    content: "\eb1d"
+}
+
+.kt-icon-screen-size:before {
+    content: "\eb1e"
+}
+
+.kt-icon-shoulder-bag:before {
+    content: "\eb1f"
+}
+
+.kt-icon-sport-bag:before {
+    content: "\eb20"
+}
+
+.kt-icon-staircase:before {
+    content: "\eb21"
+}
+
+.kt-icon-xbox:before {
+    content: "\eb22"
+}
+
+.kt-icon-furniture-classic:before {
+    content: "\eb23"
+}
+
+.kt-icon-furniture:before {
+    content: "\eb24"
+}
+
+.kt-icon-briefcase:before {
+    content: "\eb25"
+}
+
+.kt-icon-money-bills:before {
+    content: "\eb26"
+}
+
+.kt-icon-shaking-hands:before {
+    content: "\eb27"
+}
+
+.kt-icon-furniture-sofa:before,.kt-icon-sofa1:before {
+    content: "\eb28"
+}
+
+.kt-icon-cpu:before {
+    content: "\eb29"
+}
+
+.kt-icon-hdmi:before {
+    content: "\eb2a"
+}
+
+.kt-icon-lan:before {
+    content: "\eb2b"
+}
+
+.kt-icon-modem:before {
+    content: "\eb2c"
+}
+
+.kt-icon-ram:before {
+    content: "\eb2d"
+}
+
+.kt-icon-usb:before {
+    content: "\eb2e"
+}
+
+.kt-icon-stop-watch-f:before {
+    content: "\eb2f"
+}
+
+.kt-icon-stop-watch:before {
+    content: "\eb30"
+}
+
+.kt-icon-toman-sign:before {
+    content: "\eb31"
+}
+
+.kt-icon-umbrella-f:before {
+    content: "\eb32"
+}
+
+.kt-icon-umbrella:before {
+    content: "\eb33"
+}
+
+.kt-icon-shatel:before {
+    content: "\eb34"
+}
+
+.kt-icon-ai:before {
+    content: "\eb35"
+}
+
+.kt-icon-accounting-and-finance:before {
+    content: "\eb36"
+}
+
+.kt-icon-accounting-finance-legal:before {
+    content: "\eb37"
+}
+
+.kt-icon-administration-and-hr:before {
+    content: "\eb38"
+}
+
+.kt-icon-air-conditioning-fan-coil:before {
+    content: "\eb39"
+}
+
+.kt-icon-animals:before {
+    content: "\eb3a"
+}
+
+.kt-icon-apartment-rent:before {
+    content: "\eb3b"
+}
+
+.kt-icon-apartment-sell:before {
+    content: "\eb3c"
+}
+
+.kt-icon-appliance:before {
+    content: "\eb3d"
+}
+
+.kt-icon-artificial-flower:before {
+    content: "\eb3e"
+}
+
+.kt-icon-audio-video:before {
+    content: "\eb3f"
+}
+
+.kt-icon-baby-and-toys:before {
+    content: "\eb40"
+}
+
+.kt-icon-ball-sports:before {
+    content: "\eb41"
+}
+
+.kt-icon-barbershop-and-beautysalon:before {
+    content: "\eb42"
+}
+
+.kt-icon-batch:before {
+    content: "\eb43"
+}
+
+.kt-icon-bathroom-accessories:before {
+    content: "\eb44"
+}
+
+.kt-icon-bathrooms:before {
+    content: "\eb45"
+}
+
+.kt-icon-beauty-and-haircare:before {
+    content: "\eb46"
+}
+
+.kt-icon-bed-pillow-blanket:before {
+    content: "\eb47"
+}
+
+.kt-icon-bed-service:before {
+    content: "\eb48"
+}
+
+.kt-icon-bed-sheet:before {
+    content: "\eb49"
+}
+
+.kt-icon-bicycle:before {
+    content: "\eb4a"
+}
+
+.kt-icon-birds:before {
+    content: "\eb4b"
+}
+
+.kt-icon-boat:before {
+    content: "\eb4c"
+}
+
+.kt-icon-book-student-literature:before {
+    content: "\eb4d"
+}
+
+.kt-icon-bookcase-shelf:before {
+    content: "\eb4e"
+}
+
+.kt-icon-buffet-showcases:before {
+    content: "\eb4f"
+}
+
+.kt-icon-building-equipment:before {
+    content: "\eb50"
+}
+
+.kt-icon-bus-metro-train:before {
+    content: "\eb51"
+}
+
+.kt-icon-cafe-and-restaurant:before {
+    content: "\eb52"
+}
+
+.kt-icon-camera-camcoders:before {
+    content: "\eb53"
+}
+
+.kt-icon-camping-outdoor:before {
+    content: "\eb54"
+}
+
+.kt-icon-car-and-motor:before {
+    content: "\eb55"
+}
+
+.kt-icon-care-health-beauty:before {
+    content: "\eb56"
+}
+
+.kt-icon-carpet-moquette:before {
+    content: "\eb57"
+}
+
+.kt-icon-cars:before {
+    content: "\eb58"
+}
+
+.kt-icon-cat:before {
+    content: "\eb59"
+}
+
+.kt-icon-catering:before {
+    content: "\eb5a"
+}
+
+.kt-icon-cctv:before {
+    content: "\eb5b"
+}
+
+.kt-icon-chair-bench:before {
+    content: "\eb5c"
+}
+
+.kt-icon-chandeliers:before {
+    content: "\eb5d"
+}
+
+.kt-icon-child-car-seat:before {
+    content: "\eb5e"
+}
+
+.kt-icon-childrens-clothing-and-shoe:before {
+    content: "\eb5f"
+}
+
+.kt-icon-childrens-furniture:before {
+    content: "\eb60"
+}
+
+.kt-icon-classic:before {
+    content: "\eb61"
+}
+
+.kt-icon-cleaning-supplies:before {
+    content: "\eb62"
+}
+
+.kt-icon-cleaning:before {
+    content: "\eb63"
+}
+
+.kt-icon-clothes-rack:before {
+    content: "\eb64"
+}
+
+.kt-icon-clothing-and-shoes:before {
+    content: "\eb65"
+}
+
+.kt-icon-clothing:before {
+    content: "\eb66"
+}
+
+.kt-icon-coin-stamp:before {
+    content: "\eb67"
+}
+
+.kt-icon-commercial-rent:before {
+    content: "\eb68"
+}
+
+.kt-icon-commercial-sell:before {
+    content: "\eb69"
+}
+
+.kt-icon-computer-and-it:before {
+    content: "\eb6a"
+}
+
+.kt-icon-computer-and-mobile:before {
+    content: "\eb6b"
+}
+
+.kt-icon-computers:before {
+    content: "\eb6c"
+}
+
+.kt-icon-concert:before {
+    content: "\eb6d"
+}
+
+.kt-icon-conference-meeting:before {
+    content: "\eb6e"
+}
+
+.kt-icon-construction-craft:before {
+    content: "\eb6f"
+}
+
+.kt-icon-container-organizers:before {
+    content: "\eb70"
+}
+
+.kt-icon-containers:before {
+    content: "\eb71"
+}
+
+.kt-icon-cooking-utensils:before {
+    content: "\eb72"
+}
+
+.kt-icon-crafts:before {
+    content: "\eb73"
+}
+
+.kt-icon-craftsmen:before {
+    content: "\eb74"
+}
+
+.kt-icon-curtains-table-cover:before {
+    content: "\eb75"
+}
+
+.kt-icon-decoration:before {
+    content: "\eb76"
+}
+
+.kt-icon-desk:before {
+    content: "\eb77"
+}
+
+.kt-icon-desktops:before {
+    content: "\eb78"
+}
+
+.kt-icon-detergent-tissue:before {
+    content: "\eb79"
+}
+
+.kt-icon-dining-table:before {
+    content: "\eb7a"
+}
+
+.kt-icon-dishwasher:before {
+    content: "\eb7b"
+}
+
+.kt-icon-diving-watersports:before {
+    content: "\eb7c"
+}
+
+.kt-icon-dog:before {
+    content: "\eb7d"
+}
+
+.kt-icon-drink-maker:before {
+    content: "\eb7e"
+}
+
+.kt-icon-drums-percussion:before {
+    content: "\eb7f"
+}
+
+.kt-icon-education:before {
+    content: "\eb80"
+}
+
+.kt-icon-educational:before {
+    content: "\eb81"
+}
+
+.kt-icon-event:before {
+    content: "\eb82"
+}
+
+.kt-icon-events-sports:before {
+    content: "\eb83"
+}
+
+.kt-icon-fan-ventilator-humidifier:before {
+    content: "\eb84"
+}
+
+.kt-icon-farm-animals:before {
+    content: "\eb85"
+}
+
+.kt-icon-figurines:before {
+    content: "\eb86"
+}
+
+.kt-icon-fish:before {
+    content: "\eb87"
+}
+
+.kt-icon-fishing:before {
+    content: "\eb88"
+}
+
+.kt-icon-food-and-drink:before {
+    content: "\eb89"
+}
+
+.kt-icon-food-mill:before {
+    content: "\eb8a"
+}
+
+.kt-icon-for-sale:before {
+    content: "\eb8b"
+}
+
+.kt-icon-furniture-wood:before {
+    content: "\eb8c"
+}
+
+.kt-icon-game-consoles-and-video-games:before {
+    content: "\eb8d"
+}
+
+.kt-icon-garden-and-landscaping:before {
+    content: "\eb8e"
+}
+
+.kt-icon-gift-certificate:before {
+    content: "\eb8f"
+}
+
+.kt-icon-guitar-bass-amplifier:before {
+    content: "\eb90"
+}
+
+.kt-icon-health-beauty:before {
+    content: "\eb91"
+}
+
+.kt-icon-heavy:before {
+    content: "\eb92"
+}
+
+.kt-icon-historical-objects:before {
+    content: "\eb93"
+}
+
+.kt-icon-historical:before {
+    content: "\eb94"
+}
+
+.kt-icon-hobby-collectibles:before {
+    content: "\eb95"
+}
+
+.kt-icon-home-catering:before {
+    content: "\eb96"
+}
+
+.kt-icon-home-lighting:before {
+    content: "\eb97"
+}
+
+.kt-icon-horses-equestrian:before {
+    content: "\eb98"
+}
+
+.kt-icon-house-villa-rent:before {
+    content: "\eb99"
+}
+
+.kt-icon-house-villa-sell:before {
+    content: "\eb9a"
+}
+
+.kt-icon-industrial-machinery:before {
+    content: "\eb9b"
+}
+
+.kt-icon-industrial-technology:before {
+    content: "\eb9c"
+}
+
+.kt-icon-industry-agriculture-business-rent:before {
+    content: "\eb9d"
+}
+
+.kt-icon-industry-agriculture-business-sell:before {
+    content: "\eb9e"
+}
+
+.kt-icon-janitorial-cleaning:before {
+    content: "\eb9f"
+}
+
+.kt-icon-jewelry-and-watches:before {
+    content: "\eba0"
+}
+
+.kt-icon-jewelry:before {
+    content: "\eba1"
+}
+
+.kt-icon-juicers:before {
+    content: "\eba2"
+}
+
+.kt-icon-kitchen-utensils:before {
+    content: "\eba3"
+}
+
+.kt-icon-lamps:before {
+    content: "\eba4"
+}
+
+.kt-icon-lampshade:before {
+    content: "\eba5"
+}
+
+.kt-icon-laptops:before {
+    content: "\eba6"
+}
+
+.kt-icon-leisure-hobbies-toys:before {
+    content: "\eba7"
+}
+
+.kt-icon-light:before {
+    content: "\eba8"
+}
+
+.kt-icon-literary:before {
+    content: "\eba9"
+}
+
+.kt-icon-lost-and-found:before {
+    content: "\ebaa"
+}
+
+.kt-icon-lost-animals:before {
+    content: "\ebab"
+}
+
+.kt-icon-lost-things:before {
+    content: "\ebac"
+}
+
+.kt-icon-lumbar-pillow:before {
+    content: "\ebad"
+}
+
+.kt-icon-magazines:before {
+    content: "\ebae"
+}
+
+.kt-icon-mat:before {
+    content: "\ebaf"
+}
+
+.kt-icon-mattress:before {
+    content: "\ebb0"
+}
+
+.kt-icon-media-advertising:before {
+    content: "\ebb1"
+}
+
+.kt-icon-medical-equipment:before {
+    content: "\ebb2"
+}
+
+.kt-icon-mirror:before {
+    content: "\ebb3"
+}
+
+.kt-icon-mobile-phones:before {
+    content: "\ebb4"
+}
+
+.kt-icon-mobile-tablet-accessories:before {
+    content: "\ebb5"
+}
+
+.kt-icon-mobile-tablet:before {
+    content: "\ebb6"
+}
+
+.kt-icon-modem-and-network-equipment:before {
+    content: "\ebb7"
+}
+
+.kt-icon-moquette:before {
+    content: "\ebb8"
+}
+
+.kt-icon-motorcycles:before {
+    content: "\ebb9"
+}
+
+.kt-icon-movies-and-music:before {
+    content: "\ebba"
+}
+
+.kt-icon-mp3-player:before {
+    content: "\ebbb"
+}
+
+.kt-icon-musical-instruments:before {
+    content: "\ebbc"
+}
+
+.kt-icon-natural-plants:before {
+    content: "\ebbd"
+}
+
+.kt-icon-office-decoration:before {
+    content: "\ebbe"
+}
+
+.kt-icon-office-rent:before {
+    content: "\ebbf"
+}
+
+.kt-icon-office-sell:before {
+    content: "\ebc0"
+}
+
+.kt-icon-offices:before {
+    content: "\ebc1"
+}
+
+.kt-icon-other-appliances:before {
+    content: "\ebc2"
+}
+
+.kt-icon-oven-baking-appliances:before {
+    content: "\ebc3"
+}
+
+.kt-icon-paintings-picture:before {
+    content: "\ebc4"
+}
+
+.kt-icon-partnership:before {
+    content: "\ebc5"
+}
+
+.kt-icon-parts-accessories:before {
+    content: "\ebc6"
+}
+
+.kt-icon-parts-and-accessories:before {
+    content: "\ebc7"
+}
+
+.kt-icon-personal-toys:before {
+    content: "\ebc8"
+}
+
+.kt-icon-phone-desk:before {
+    content: "\ebc9"
+}
+
+.kt-icon-piano-keyboard:before {
+    content: "\ebca"
+}
+
+.kt-icon-pictorial-carpet:before {
+    content: "\ebcb"
+}
+
+.kt-icon-plot-old:before {
+    content: "\ebcc"
+}
+
+.kt-icon-pot-kettle:before {
+    content: "\ebcd"
+}
+
+.kt-icon-presell:before {
+    content: "\ebce"
+}
+
+.kt-icon-printer-scaner-copier:before {
+    content: "\ebcf"
+}
+
+.kt-icon-range-hood:before {
+    content: "\ebd0"
+}
+
+.kt-icon-real-estate-services:before {
+    content: "\ebd1"
+}
+
+.kt-icon-refrigerator-freezer:before {
+    content: "\ebd2"
+}
+
+.kt-icon-religious:before {
+    content: "\ebd3"
+}
+
+.kt-icon-rental:before {
+    content: "\ebd4"
+}
+
+.kt-icon-reptile:before {
+    content: "\ebd5"
+}
+
+.kt-icon-research:before {
+    content: "\ebd6"
+}
+
+.kt-icon-residential-rent:before {
+    content: "\ebd7"
+}
+
+.kt-icon-residential-sell:before {
+    content: "\ebd8"
+}
+
+.kt-icon-rhinestones:before {
+    content: "\ebd9"
+}
+
+.kt-icon-rodents-rabbits:before {
+    content: "\ebda"
+}
+
+.kt-icon-rubber-carpet:before {
+    content: "\ebdb"
+}
+
+.kt-icon-rugs-woolen-cloth:before {
+    content: "\ebdc"
+}
+
+.kt-icon-sales-marketing:before {
+    content: "\ebdd"
+}
+
+.kt-icon-sewing-accessories:before {
+    content: "\ebde"
+}
+
+.kt-icon-sewing-knitting:before {
+    content: "\ebdf"
+}
+
+.kt-icon-sewing-machine:before {
+    content: "\ebe0"
+}
+
+.kt-icon-shoe-rack-drawer:before {
+    content: "\ebe1"
+}
+
+.kt-icon-shoes-belt-bag:before {
+    content: "\ebe2"
+}
+
+.kt-icon-shop-and-cash:before {
+    content: "\ebe3"
+}
+
+.kt-icon-shop-rent:before {
+    content: "\ebe4"
+}
+
+.kt-icon-shop-restaurant:before {
+    content: "\ebe5"
+}
+
+.kt-icon-shop-sell:before {
+    content: "\ebe6"
+}
+
+.kt-icon-sim-card:before {
+    content: "\ebe7"
+}
+
+.kt-icon-sleep-goods:before {
+    content: "\ebe8"
+}
+
+.kt-icon-sport-leisure:before {
+    content: "\ebe9"
+}
+
+.kt-icon-sport:before {
+    content: "\ebea"
+}
+
+.kt-icon-stationery:before {
+    content: "\ebeb"
+}
+
+.kt-icon-steam-iron:before {
+    content: "\ebec"
+}
+
+.kt-icon-stereo-surround:before {
+    content: "\ebed"
+}
+
+.kt-icon-stoves-heaters-fireplaces:before {
+    content: "\ebee"
+}
+
+.kt-icon-strollers-and-accessories:before {
+    content: "\ebef"
+}
+
+.kt-icon-suite-apartment:before {
+    content: "\ebf0"
+}
+
+.kt-icon-tablecloths:before {
+    content: "\ebf1"
+}
+
+.kt-icon-tablet:before {
+    content: "\ebf2"
+}
+
+.kt-icon-teaching:before {
+    content: "\ebf3"
+}
+
+.kt-icon-temporary-rent:before {
+    content: "\ebf4"
+}
+
+.kt-icon-theatre-and-cinema:before {
+    content: "\ebf5"
+}
+
+.kt-icon-ticket:before {
+    content: "\ebf6"
+}
+
+.kt-icon-tickets-sports:before {
+    content: "\ebf7"
+}
+
+.kt-icon-toolbox:before {
+    content: "\ebf8"
+}
+
+.kt-icon-traditional:before {
+    content: "\ebf9"
+}
+
+.kt-icon-training:before {
+    content: "\ebfa"
+}
+
+.kt-icon-transport:before {
+    content: "\ebfb"
+}
+
+.kt-icon-transportation:before {
+    content: "\ebfc"
+}
+
+.kt-icon-travel-packages:before {
+    content: "\ebfd"
+}
+
+.kt-icon-tv-projector:before {
+    content: "\ebfe"
+}
+
+.kt-icon-tv-stand:before {
+    content: "\ebff"
+}
+
+.kt-icon-vacuums-cleaner:before {
+    content: "\ec00"
+}
+
+.kt-icon-ventilation-cooling-heating:before {
+    content: "\ec01"
+}
+
+.kt-icon-video-dvdplayer:before {
+    content: "\ec02"
+}
+
+.kt-icon-villa:before {
+    content: "\ec03"
+}
+
+.kt-icon-violins:before {
+    content: "\ec04"
+}
+
+.kt-icon-volunteers:before {
+    content: "\ec05"
+}
+
+.kt-icon-wall-clock:before {
+    content: "\ec06"
+}
+
+.kt-icon-washing-cleaning:before {
+    content: "\ec07"
+}
+
+.kt-icon-washing-machines:before {
+    content: "\ec08"
+}
+
+.kt-icon-watches:before {
+    content: "\ec09"
+}
+
+.kt-icon-water-cooler-refinery:before {
+    content: "\ec0a"
+}
+
+.kt-icon-water-cooler:before {
+    content: "\ec0b"
+}
+
+.kt-icon-water-heater-package-radiator:before {
+    content: "\ec0c"
+}
+
+.kt-icon-wc-accessories:before {
+    content: "\ec0d"
+}
+
+.kt-icon-wind:before {
+    content: "\ec0e"
+}
+
+.kt-icon-winter-sports:before {
+    content: "\ec0f"
+}
+
+.kt-icon-work-equipment:before {
+    content: "\ec10"
+}
+
+.kt-icon-workspace:before {
+    content: "\ec11"
+}
+
+.kt-icon-yarn-lights:before {
+    content: "\ec12"
+}
+
+.kt-icon-accessories:before {
+    content: "\ec13"
+}
+
+.kt-icon-article-magnifier-f:before {
+    content: "\ec14"
+}
+
+.kt-icon-article-magnifier:before {
+    content: "\ec15"
+}
+
+.kt-icon-magnifier-sparkles:before {
+    content: "\ec16"
+}
