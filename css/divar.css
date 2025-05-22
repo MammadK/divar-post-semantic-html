@@ -1,7 +1,87 @@
 :root{
-      --black-secondary: rgba(0, 0, 0, 0.56);
-  --black-divider: rgba(0, 0, 0, 0.12);
+    --black: #000;
+    --brand: #a62626;
+    --white: #fff;
+    --gray: #030303;
+    --message: #f0faff;
+    --error: red;
+    --warning: #e65100;
+    --tertiary: #2670c1;
+    --success-primary: #2e7d32;
+    --success-secondary: #7cb342;
+    --success-divider: rgba(46, 125, 50, 0.12);
+    --blue-800: #0c69d4;
+    --blue-outline: #39f;
+    --warning-primary: #e65100;
+    --warning-hint: rgba(230, 81, 0, 0.12);
+    --warning-secondary: #fbc02d;
+    --warning-secondary-hint: rgba(251, 192, 45, 0.12);
+    --message-primary: #f0faff;
+    --message-secondary: #dbf3ff;
+    --message-opposite-primary: #f5f5f5;
+    --message-opposite-secondary: #e6e6e6;
+    --message-hint: rgba(240, 250, 255, 0.32);
+    --error-primary: red;
+    --error-hint: rgba(255, 0, 0, 0.08);
+    --white-primary: #fff;
+    --white-nav: hsla(0, 0%, 100%, 0.98);
+    --white-secondary: hsla(0, 0%, 100%, 0.7);
+    --white-hint: hsla(0, 0%, 100%, 0.5);
+    --white-divider: hsla(0, 0%, 100%, 0.12);
+    --transparent: hsla(0, 0%, 100%, 0.01);
+    --black-primary: rgba(0, 0, 0, 0.87);
+    --black-secondary: rgba(0, 0, 0, 0.56);
+    --black-dark-100: rgba(0, 0, 0, 0.48);
     --black-hint: rgba(0, 0, 0, 0.32);
+    --black-medium-200: rgba(0, 0, 0, 0.24);
+    --black-medium-100: rgba(0, 0, 0, 0.16);
+    --black-divider: rgba(0, 0, 0, 0.12);
+    --black-light-200: rgba(0, 0, 0, 0.08);
+    --black-light-100: rgba(0, 0, 0, 0.04);
+    --black-press: rgba(0, 0, 0, 0.6);
+    --black-tooltip: #292929;
+    --black-hover: rgba(31, 31, 31, 0.56);
+    --gray-900: #242424;
+    --gray-850: #383838;
+    --gray-800: #404040;
+    --gray-750: #545454;
+    --gray-400: #bdbdbd;
+    --gray-200: #e6e6e6;
+    --gray-100: #f5f5f5;
+    --gray-50: #fafafa;
+    --brand-primary: #a62626;
+    --brand-secondary: rgba(166, 38, 38, 0.56);
+    --brand-hint: rgba(166, 38, 38, 0.32);
+    --brand-medium-200: rgba(166, 38, 38, 0.24);
+    --brand-medium-100: rgba(166, 38, 38, 0.16);
+    --brand-divider: rgba(166, 38, 38, 0.12);
+    --brand-light-200: rgba(166, 38, 38, 0.08);
+    --brand-light-100: rgba(166, 38, 38, 0.04);
+    --brand-hover: #be3737;
+    --brand-press: #9d1b1b;
+    --blue-primary: #2670c1;
+    --blue-secondary: rgba(38, 112, 193, 0.56);
+    --blue-hint: rgba(38, 112, 193, 0.32);
+    --blue-medium-200: rgba(38, 112, 193, 0.24);
+    --blue-medium-100: rgba(38, 112, 193, 0.16);
+    --blue-divider: rgba(38, 112, 193, 0.12);
+    --blue-light-200: rgba(38, 112, 193, 0.08);
+    --blue-light-100: rgba(38, 112, 193, 0.04);
+    --blue-hover: #4085ce;
+    --blue-press: #1a66b7;
+    --card-overlay: rgba(0, 0, 0, 0.64);
+    --semantic-warning-hint: #fceae0;
+    --semantic-warning-primary: #e96820;
+    --dimmer-light: rgba(0, 0, 0, 0.08);
+    --dimmer-dark: rgba(0, 0, 0, 0.24);
+    --dimmer-darker: rgba(0, 0, 0, 0.48);
+    --dimmer-black-primary: rgba(0, 0, 0, 0.56);
+    --static-white: #fff;
+
+
+
+
+    --border-tertiary: #dbdbe4;
 }
 
 
@@ -10,4 +90,141 @@
     color: rgba(0, 0, 0, .56);
     color: var(--black-secondary);
     transition: color .36s ease, transform .36s ease;
+}
+
+
+
+.kt-button {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .56);
+    background-color: var(--black-secondary);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    color: var(--white);
+    cursor: pointer;
+    display: inline-flex
+;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2.5rem;
+    justify-content: center;
+    line-height: normal;
+    min-width: 6rem;
+    outline: none;
+    overflow: hidden;
+    padding: 0 16px;
+    position: relative;
+    transition: color .36s ease, background-color .36s ease, box-shadow .36s ease, border-color .36s ease, transform .36s ease;
+}
+
+.kt-button.kt-button--primary {
+    background-color: var(--brand);
+}
+
+
+.kt-button.kt-button--primary:focus, .kt-button.kt-button--primary:hover {
+    background-color: var(--brand-hover);
+}
+
+.kt-button.kt-button--primary:active {
+    background-color: var(--brand-press);
+}
+
+.kt-button--outlined {
+    background-color: transparent;
+    border-color: var(--black-dark-100);
+    color: var(--black-secondary);
+}
+
+.kt-button--inlined:focus, .kt-button--inlined:hover, .kt-button--outlined:focus, .kt-button--outlined:hover {
+    color: var(--black-primary);
+}
+
+.kt-button--inlined:active, .kt-button--outlined:active {
+    background-color: var(--black-divider);
+}
+
+.kt-button--inlined:active, .kt-button--outlined:active {
+    background-color: rgba(0, 0, 0, .12);
+    background-color: var(--black-divider);
+}
+
+
+
+
+.kt-button--inlined, .kt-button--outlined {
+    background-color: transparent;
+    color: rgba(0, 0, 0, .56);
+    color: var(--black-secondary);
+}
+.kt-button--inlined {
+    color: rgba(0, 0, 0, .56);
+    color: var(--black-secondary);
+}
+.kt-button--circular {
+    border-radius: 50%;
+    height: 2.5rem;
+    min-width: auto;
+    padding: 0;
+    width: 2.5rem;
+}
+
+
+.kt-button--inlined:focus, .kt-button--inlined:hover, .kt-button--outlined:focus, .kt-button--outlined:hover {
+    color: rgba(0, 0, 0, .87);
+    color: var(--black-primary);
+}
+
+.kt-button--inlined:focus, .kt-button--inlined:hover, .kt-button--outlined:focus, .kt-button--outlined:hover {
+    background-color: rgba(0, 0, 0, .04);
+    background-color: var(--black-light-100);
+}
+
+
+.kt-button--inlined:active, .kt-button--outlined:active {
+    background-color: rgba(0, 0, 0, .12);
+    background-color: var(--black-divider);
+}
+
+.kt-button--circular .kt-button__icon {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.kt-chip {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .04);
+    background-color: var(--black-light-100);
+    border: none;
+    border-radius: 2px;
+    display: inline-flex
+;
+    font-size: .875rem;
+    font-weight: 400;
+    height: 2rem;
+    outline: none;
+    padding: 0 12px;
+    transition: background-color .36s ease;
+}
+.kt-chip {
+    color: rgba(0, 0, 0, .56);
+    color: var(--black-secondary);
+}
+.kt-chip--has-action {
+    cursor: pointer;
+}
+
+
+.kt-chip:focus, .kt-chip:hover {
+    background-color: rgba(0, 0, 0, .12);
+    background-color: var(--black-divider);
+}
+
+.kt-chip:active {
+    background-color: rgba(0, 0, 0, .24);
+    background-color: var(--black-medium-200);
 }
